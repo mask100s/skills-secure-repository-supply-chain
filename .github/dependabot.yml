@@ -1,21 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: github-actions
-    directory: /
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
-      interval: monthly
-
-  - package-ecosystem: nuget
-    directory: /code/src/Attendee
-    schedule:
-      interval: weekly
-
-  - package-ecosystem: nuget
-    directory: /code/src/AttendeeSite
-    schedule:
-      interval: weekly
-
-  - package-ecosystem: nuget
-    directory: /code/test/AttendeeTest
-    schedule:
-      interval: weekly
+      interval: "monthly"
